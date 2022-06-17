@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #00539CFF;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/* Royal Blue(MAIN) - #00539CFF
+   Peach - #EEA47FFF 
+   Custom Yellow - rgb(228, 228, 82) */
+
+h1 {
+    color: #EEA47FFF; 
+    font-size: 8rem;
+    text-align: center;
+    opacity: 0.8;
+}
+h2 {
+    color: #EEA47FFF;
+    font-size: 2rem;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 50px;
+}
+p {
+    color: #EEA47FFF; 
+    font-size: 1rem;
+    text-align: center;
+    opacity: 0.8;
+    margin: 10px;
+}
+.contador {
+    background-color: rgb(16, 127, 192);
+    opacity: 1;
+    border: 1px solid #b5b5b5;
+    margin: 20px;
+}
+.marg {
+    margin-bottom: 50px;
+}
+form {
+    margin: auto;
+    max-width: 100%;
+    width: 400px;
+}
+
+.input {
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    display: block;
+    width: 100%;
+}
+.lista {
+    background-color: rgb(16, 127, 192);
+    color: rgb(240, 240, 48); 
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.lista li {
+    border: 1px solid #b5b5b5;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+}
+
+.lista li.concluido {
+    color: #e5e5e5;
+    opacity: 0.4;
+    text-decoration: line-through;
+}

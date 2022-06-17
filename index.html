@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App</title>
+    <link rel="stylesheet" href="src/style.css">
+    <script src="src/script.js" defer></script>
+</head>
+<body>
+    
+    <h1>Lista de Tarefas</h1>
+    <p>Digite na caixa abaixo para escrever uma tarefa, e então pressione Enter para inseri-la.</p>
+    <p>Clique com o botão esquerdo na tarefa desejada para alterná-la para concluída.</p>
+    <p class="marg">Clique com o botão direito para remover a tarefa da lista.</p>
+    <form id="form">
+        <input 
+        type="text" 
+        id="input" 
+        class="input" 
+        placeholder="Digite uma nova tarefa..."
+        autocomplete="off">
+
+        <ul class="lista" id="lista"></ul>
+        <p class="contador" id="contador">Sem tarefas a fazer.</p>
+    </form>
+
+    <h2>Feito por Afonso H.</h2>
+    <p>Github: Afonso247</p>
+</body>
+</html>
